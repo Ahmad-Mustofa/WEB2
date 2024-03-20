@@ -7,12 +7,12 @@ class Hero
     public $damage ;
 
     //method 
-public function __construct($name , $hp, $damage) 
-{
-    $this->name = $name;
-    $this->hp = $hp;
-    $this->damage = $damage;
-}
+    public function __construct($name , $hp, $damage) 
+    {
+        $this->name = $name;
+        $this->hp = $hp;
+        $this->damage = $damage;
+    }
 
     // method
     public function getDetail(){
